@@ -46,14 +46,10 @@ const App = () => {
 
           <header className='p-4'>
             <div className='flex flex-col gap-2 mb-6'>
-            <div>
-              <h1 className='text-2xl text-gray-300'>Gaming Pro</h1>
-              <p className='text-gray-500 text-2xl'>Creado por SiickedDev</p>
-            </div>
               <form>
               <div className='w-full relative'>
                 <RiSearchLine className='absolute left-3 top-1/2 -translate-y-1/2 text-gray-300'/>
-              <input placeholder='Buscar por producto' type="text" className="bg-[#1F1D2B] w-64 py-2 pl-10 rounded-lg text-gray-300 outline-none"  />
+              <input placeholder='Buscar por producto' type="text" className="bg-[#1F1D2B] w-full py-2 pl-10 rounded-lg text-gray-300 outline-none"  />
               </div>
               
               </form>
